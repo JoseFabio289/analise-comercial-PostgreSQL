@@ -1,7 +1,9 @@
 import pandas as pd
 
+
 def carregar_dados(caminho):
     return pd.read_csv(caminho)
+
 
 def diagnosticar_dados(df):
     print("--- Diagnóstico dos dados ---")
@@ -12,7 +14,7 @@ def diagnosticar_dados(df):
     print()
 
     print("Duplicatas completas:")
-    print(df.duplicated.sum())
+    print(df.duplicated().sum())
     print()
 
     print("Quantidade negativa:")
@@ -31,10 +33,12 @@ def diagnosticar_dados(df):
     print("Descontos inválidos:")
     print(filtro_desconto_invalido.sum())
 
+
 def main():
     df = carregar_dados("dados/vendas_brutas.csv")
 
     diagnosticar_dados(df)
+
 
 if __name__ == "__main__":
     main()
