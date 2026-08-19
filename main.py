@@ -6,7 +6,7 @@ def carregar_dados(caminho):
     return pd.read_csv(caminho)
 
 
-#def diagnosticar_dados(df):
+def diagnosticar_dados(df):
     print("--- Diagnóstico dos dados ---")
     print()
 
@@ -33,7 +33,7 @@ def carregar_dados(caminho):
 
     print("Descontos inválidos:")
     print(filtro_desconto_invalido.sum())
-    #
+    
 
 def limpar_dados(df):
     df_limpo = df.drop_duplicates()
@@ -43,18 +43,23 @@ def limpar_dados(df):
         "quantidade"
     ] = pd.NA
 
-    return df_limpo
+    df_limpo.loc[
+        df_limpo["preco_unitario"] < 0,
+        "preco_unitario"
+    ] = pd.NA
 
+    df_limpo.loc[
+        (df_limpo["desconto"] < 0) |
+        (df_limpo["desconto"] > 1),
+        "desconto"
+    ] = pd.NA
+
+    return df_limpo
 
 def main():
     df = carregar_dados("dados/vendas_brutas.csv")
 
-    #diagnosticar_dados(df)
-
     df_limpo = limpar_dados(df)
-
-    print((df_limpo["quantidade"] < 0).sum())
-    print(df_limpo["quantidade"].isna().sum())
 
 if __name__ == "__main__":
     main()
