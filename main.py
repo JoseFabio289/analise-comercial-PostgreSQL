@@ -54,12 +54,18 @@ def limpar_dados(df):
         "desconto"
     ] = pd.NA
 
+    df_limpo["data"] = pd.to_datetime(df_limpo["data"])
+
+    df_limpo["quantidade"] = df_limpo["quantidade"].astype("Int64")
+
     return df_limpo
 
 def main():
     df = carregar_dados("dados/vendas_brutas.csv")
 
     df_limpo = limpar_dados(df)
+
+    df_limpo.info()
 
 if __name__ == "__main__":
     main()
