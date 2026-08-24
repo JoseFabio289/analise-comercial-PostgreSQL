@@ -1,0 +1,501 @@
+id_venda,data,produto,categoria,vendedor,regiao,quantidade,preco_unitario,desconto,faturamento
+1,2026-06-25,Headset,Áudio,Ana,Nordeste,3,265.96,0.0,797.8799999999999
+2,2026-01-08,SSD 1TB,Armazenamento,Mariana,Sul,7,518.53,0.0,3629.71
+3,2026-02-11,SSD 1TB,Armazenamento,Ana,Sul,2,550.96,0.0,1101.92
+4,2026-05-19,Teclado,Periféricos,Carlos,Sudeste,1,160.46,0.0,160.46
+5,2026-04-10,Notebook,Informática,Carlos,Nordeste,3,3517.87,0.1,9498.249000000002
+6,2026-03-13,SSD 1TB,Armazenamento,Joao,Sul,8,491.21,0.0,3929.68
+7,2026-02-12,Teclado,Periféricos,Joao,Sudeste,2,168.77,0.0,337.54
+8,2026-03-23,Mouse,Periféricos,Rafael,Sul,8,86.58,0.0,692.64
+9,2026-04-25,Cadeira Gamer,Móveis,Ana,Nordeste,2,1193.48,0.0,2386.96
+10,2026-02-07,Webcam,Periféricos,Carlos,Sul,2,229.54,0.0,459.08
+11,2026-02-17,Cadeira Gamer,Móveis,Mariana,Centro-Oeste,3,1203.5,0.0,3610.5
+12,2026-01-20,Mouse,Periféricos,Carlos,Sudeste,1,84.58,0.0,84.58
+13,2026-01-29,Webcam,Periféricos,Ana,Nordeste,7,222.0,0.15,1320.8999999999999
+14,2026-05-31,Notebook,Informática,Mariana,Centro-Oeste,7,3543.33,0.05,23563.144499999995
+15,2026-04-25,Cadeira Gamer,Móveis,Beatriz,Sul,1,1138.14,0.15,967.4190000000001
+16,2026-06-14,Mouse,Periféricos,Mariana,Centro-Oeste,3,85.47,0.0,256.40999999999997
+17,2026-05-18,Webcam,Periféricos,Carlos,Sudeste,8,229.41,0.15,1559.9879999999998
+18,2026-04-08,Cadeira Gamer,Móveis,,Nordeste,1,1122.52,0.1,1010.268
+19,2026-06-28,Headset,Áudio,Joao,Sul,1,271.03,0.0,271.03
+20,2026-05-16,Cadeira Gamer,Móveis,Ana,Nordeste,5,1172.0,0.0,5860.0
+21,2026-02-03,SSD 1TB,Armazenamento,Beatriz,Nordeste,2,491.88,0.0,983.76
+22,2026-04-01,Headset,Áudio,Carlos,Nordeste,3,285.9,0.0,857.6999999999999
+23,2026-02-20,Cadeira Gamer,Móveis,Joao,Sudeste,4,1171.83,0.0,4687.32
+24,2026-03-26,Teclado,Periféricos,Carlos,Sul,4,152.79,0.1,550.044
+25,2026-04-27,Monitor,Informática,Rafael,Sul,8,1230.77,0.1,8861.544
+26,2026-02-14,Headset,Áudio,Mariana,Centro-Oeste,8,267.61,0.0,2140.88
+27,2026-03-28,Webcam,Periféricos,Mariana,Sul,2,216.59,0.05,411.521
+28,2026-01-06,Notebook,Informática,Ana,Sudeste,4,3614.07,0.1,13010.652
+29,2026-04-10,Webcam,Periféricos,Ana,Sudeste,1,225.04,0.05,213.78799999999998
+30,2026-03-16,SSD 1TB,Armazenamento,Mariana,Nordeste,6,524.41,0.1,2831.8140000000003
+31,2026-03-21,SSD 1TB,Armazenamento,Beatriz,Centro-Oeste,7,500.97,0.05,3331.4505
+32,2026-05-13,Headset,Áudio,Joao,Sudeste,3,287.72,0.15,733.686
+33,2026-02-11,Notebook,Informática,Carlos,Sudeste,2,3524.77,0.0,7049.54
+34,2026-06-06,Cadeira Gamer,Móveis,Joao,Nordeste,3,1198.57,0.05,3415.9245
+35,2026-05-24,Monitor,Informática,Carlos,Sul,4,1195.35,0.05,4542.329999999999
+36,2026-06-06,Monitor,Informática,Rafael,Sul,6,1181.09,0.1,6377.8859999999995
+37,2026-01-11,Mouse,Periféricos,Mariana,Sul,1,81.69,0.0,81.69
+38,2026-05-16,Mouse,Periféricos,Rafael,Centro-Oeste,8,82.39,0.0,659.12
+39,2026-01-25,Notebook,Informática,Carlos,Nordeste,7,3391.56,0.0,23740.92
+40,2026-01-28,Webcam,Periféricos,Joao,Centro-Oeste,1,208.68,0.0,208.68
+41,2026-06-07,Webcam,Periféricos,Carlos,Nordeste,4,207.63,0.05,788.9939999999999
+42,2026-02-26,Cadeira Gamer,Móveis,Rafael,Centro-Oeste,2,1159.75,0.05,2203.525
+43,2026-02-22,Teclado,Periféricos,Beatriz,Nordeste,5,164.24,0.1,739.08
+44,2026-03-27,Mouse,Periféricos,Rafael,Nordeste,7,80.19,0.1,505.19699999999995
+45,2026-03-27,Headset,Áudio,Carlos,Nordeste,7,288.72,0.1,1818.9360000000001
+46,2026-03-30,Cadeira Gamer,Móveis,Ana,Sul,5,1156.98,0.05,5495.655
+47,2026-04-15,Notebook,Informática,Beatriz,Sul,4,3665.5,0.05,13928.9
+48,2026-06-01,SSD 1TB,Armazenamento,Ana,Nordeste,4,492.46,0.0,1969.84
+49,2026-04-09,Mouse,Periféricos,Mariana,Sudeste,8,87.42,0.15,594.456
+50,2026-04-30,Mouse,Periféricos,Ana,Sul,4,86.0,0.05,326.8
+51,2026-04-27,Monitor,Informática,Ana,Centro-Oeste,3,1253.97,0.15,3197.6234999999997
+52,2026-06-06,Mouse,Periféricos,Mariana,Centro-Oeste,3,88.18,0.1,238.086
+53,2026-03-14,Headset,Áudio,Joao,Sudeste,1,270.24,0.0,270.24
+54,2026-04-01,Webcam,Periféricos,Ana,Sudeste,3,208.49,0.0,625.47
+55,2026-04-16,Headset,Áudio,Carlos,Nordeste,3,265.96,0.0,797.8799999999999
+56,2026-04-23,Monitor,Informática,Rafael,Centro-Oeste,4,1270.41,0.05,4827.558
+57,2026-03-31,Cadeira Gamer,Móveis,Beatriz,Sul,2,1119.37,0.0,2238.74
+58,2026-04-18,Cadeira Gamer,Móveis,Joao,Centro-Oeste,1,1147.36,0.15,975.2559999999999
+59,2026-04-30,Webcam,Periféricos,Mariana,Sul,2,226.71,0.1,408.07800000000003
+60,2026-04-25,Monitor,Informática,Ana,Sudeste,2,1255.06,0.1,2259.108
+61,2026-03-03,SSD 1TB,Armazenamento,Beatriz,Sudeste,5,521.4,0.1,2346.3
+62,2026-02-12,Mouse,Periféricos,Mariana,Sudeste,4,88.67,0.15,301.478
+63,2026-03-03,Notebook,Informática,Joao,Sudeste,8,3344.49,0.15,22742.532
+64,2026-05-17,Mouse,Periféricos,Mariana,Sul,,89.83,0.15,
+65,2026-05-17,Cadeira Gamer,Móveis,Carlos,Sul,4,1170.17,0.15,3978.578
+66,2026-01-09,Cadeira Gamer,Móveis,Rafael,Nordeste,6,1201.64,0.15,6128.364
+67,2026-04-28,Webcam,Periféricos,Joao,Centro-Oeste,1,217.84,0.15,185.164
+68,2026-02-14,Notebook,Informática,Rafael,Centro-Oeste,4,3597.57,0.0,14390.28
+69,2026-01-07,Headset,Áudio,Mariana,Sudeste,8,294.34,0.15,2001.5119999999997
+70,2026-06-10,Mouse,Periféricos,Carlos,Nordeste,2,84.54,0.15,143.71800000000002
+71,2026-03-05,Teclado,Periféricos,Carlos,Centro-Oeste,1,154.46,0.0,154.46
+72,2026-05-02,Webcam,Periféricos,Rafael,Sul,8,233.13,0.1,1678.536
+73,2026-03-24,Notebook,Informática,Carlos,Nordeste,3,3531.54,0.0,10594.619999999999
+74,2026-02-16,Webcam,Periféricos,Beatriz,Centro-Oeste,5,215.85,0.15,917.3625
+75,2026-05-13,Headset,Áudio,Beatriz,Sul,3,286.01,0.0,858.03
+76,2026-04-24,Notebook,Informática,Joao,Centro-Oeste,1,3488.59,0.0,3488.59
+77,2026-05-04,Monitor,Informática,Rafael,Sul,3,1297.38,0.0,3892.1400000000003
+78,2026-05-30,Teclado,Periféricos,Ana,Nordeste,5,153.83,0.0,769.1500000000001
+79,2026-01-12,Cadeira Gamer,Móveis,Mariana,Centro-Oeste,2,1178.09,0.15,2002.7529999999997
+80,2026-01-14,Webcam,Periféricos,Joao,Sudeste,5,219.51,0.0,1097.55
+81,2026-06-27,Cadeira Gamer,Móveis,Mariana,Centro-Oeste,3,1114.6,0.0,3343.7999999999997
+82,2026-01-25,Mouse,Periféricos,Carlos,Centro-Oeste,2,83.82,0.15,142.49399999999997
+83,2026-02-21,Notebook,Informática,Carlos,Centro-Oeste,5,3422.12,0.0,17110.6
+84,2026-04-30,Webcam,Periféricos,Ana,Sul,6,213.16,0.0,1278.96
+85,2026-01-27,Webcam,Periféricos,Ana,Nordeste,1,221.97,0.0,221.97
+86,2026-01-16,SSD 1TB,Armazenamento,Ana,Nordeste,8,519.81,0.05,3950.5559999999996
+87,2026-04-20,Teclado,Periféricos,Rafael,Nordeste,5,158.77,0.05,754.1575
+88,2026-06-11,Monitor,Informática,Mariana,Sudeste,1,1196.98,0.15,1017.433
+89,2026-06-10,SSD 1TB,Armazenamento,Mariana,,8,527.67,0.1,3799.2239999999997
+90,2026-01-15,Headset,Áudio,Carlos,Centro-Oeste,6,294.26,0.0,1765.56
+91,2026-01-21,SSD 1TB,Armazenamento,Ana,Nordeste,2,545.41,0.05,1036.279
+92,2026-03-17,SSD 1TB,Armazenamento,Mariana,Centro-Oeste,5,497.58,0.1,2239.11
+93,2026-02-06,Teclado,Periféricos,Ana,Sul,6,161.11,0.0,966.6600000000001
+94,2026-03-07,SSD 1TB,Armazenamento,Beatriz,Sudeste,1,533.15,0.05,506.49249999999995
+95,2026-03-01,Webcam,Periféricos,Joao,Sul,2,219.45,0.0,438.9
+96,2026-04-04,Mouse,Periféricos,Joao,Sudeste,3,87.61,0.15,223.4055
+97,2026-06-24,Webcam,Periféricos,Ana,Centro-Oeste,2,225.7,0.05,428.83
+98,2026-06-09,SSD 1TB,Armazenamento,Ana,Nordeste,4,516.74,0.0,2066.96
+99,2026-01-25,Monitor,Informática,Carlos,Sudeste,8,1245.52,0.05,9465.952
+100,2026-03-22,Notebook,Informática,Rafael,Sul,3,3521.15,0.0,10563.45
+101,2026-03-22,Mouse,Periféricos,Joao,Sudeste,1,82.77,0.15,70.3545
+102,2026-03-09,Webcam,Periféricos,Mariana,Sul,6,213.72,0.15,1089.972
+103,2026-02-04,Monitor,Informática,Mariana,Centro-Oeste,3,1185.35,0.1,3200.4449999999997
+104,2026-06-09,Headset,Áudio,Rafael,Sul,6,265.0,0.1,1431.0
+105,2026-01-29,Notebook,Informática,Joao,Nordeste,7,3526.51,0.0,24685.57
+106,2026-04-06,SSD 1TB,Armazenamento,Mariana,Nordeste,2,550.92,0.15,936.5639999999999
+107,2026-06-02,Teclado,Periféricos,Ana,Centro-Oeste,8,152.65,0.0,1221.2
+108,2026-04-29,SSD 1TB,Armazenamento,Joao,Sudeste,3,523.91,0.1,1414.557
+109,2026-04-08,Webcam,Periféricos,Beatriz,Sudeste,8,212.22,0.15,1443.096
+110,2026-06-30,Webcam,Periféricos,Beatriz,Nordeste,4,216.37,0.0,865.48
+111,2026-06-30,Notebook,Informática,Ana,Centro-Oeste,3,3491.83,0.0,10475.49
+112,2026-06-30,Mouse,Periféricos,Beatriz,Nordeste,4,82.53,0.0,330.12
+113,2026-04-13,Mouse,Periféricos,Beatriz,Sul,2,80.65,0.0,161.3
+114,2026-05-26,Monitor,Informática,Rafael,Centro-Oeste,7,1209.57,0.15,7196.9415
+115,2026-05-26,Headset,Áudio,Rafael,Centro-Oeste,6,285.82,0.15,1457.682
+116,2026-01-18,Teclado,Periféricos,Ana,Nordeste,1,159.97,0.0,159.97
+117,2026-04-02,Cadeira Gamer,Móveis,Rafael,Centro-Oeste,6,1145.8,0.1,6187.32
+118,2026-06-20,SSD 1TB,Armazenamento,Joao,Centro-Oeste,7,493.51,0.1,3109.113
+119,2026-06-22,Notebook,Informática,Carlos,Sul,8,3627.78,0.05,27571.128
+120,2026-01-12,Teclado,Periféricos,Ana,Sudeste,3,159.63,0.0,478.89
+121,2026-05-01,Cadeira Gamer,Móveis,Ana,Nordeste,2,1193.99,0.1,2149.1820000000002
+122,2026-04-24,Mouse,Periféricos,Joao,Sudeste,4,82.98,0.0,331.92
+123,2026-05-11,Mouse,Periféricos,Carlos,Sul,7,88.24,0.1,555.9119999999999
+124,2026-05-05,SSD 1TB,Armazenamento,Rafael,Centro-Oeste,2,495.28,0.05,941.0319999999999
+125,2026-02-06,Webcam,Periféricos,Beatriz,Centro-Oeste,8,230.86,0.0,1846.88
+126,2026-02-17,Headset,Áudio,Beatriz,Sul,2,277.03,0.0,554.06
+127,2026-06-22,Headset,Áudio,Mariana,Sul,7,274.62,0.15,1633.989
+128,2026-02-17,Monitor,Informática,Mariana,Sudeste,2,1277.26,0.0,2554.52
+129,2026-03-08,Cadeira Gamer,Móveis,Rafael,Centro-Oeste,3,1163.33,0.1,3140.991
+130,2026-02-25,Webcam,Periféricos,Joao,Centro-Oeste,4,211.71,0.05,804.498
+131,2026-02-07,SSD 1TB,Armazenamento,Beatriz,Nordeste,1,503.67,0.15,428.1195
+132,2026-02-06,Monitor,Informática,Rafael,Sudeste,4,1207.69,0.15,4106.146
+133,2026-03-19,Teclado,Periféricos,Beatriz,Sul,7,158.59,0.0,1110.13
+134,2026-04-23,Mouse,Periféricos,Joao,Sudeste,6,87.37,0.0,524.22
+135,2026-02-07,Mouse,Periféricos,Rafael,Centro-Oeste,8,87.59,0.05,665.684
+136,2026-01-07,Headset,Áudio,Joao,Sul,6,278.73,0.0,1672.38
+137,2026-03-08,Mouse,Periféricos,Ana,Centro-Oeste,5,86.12,0.0,430.6
+138,2026-01-09,Webcam,Periféricos,Rafael,Sul,4,229.8,0.0,919.2
+139,2026-01-06,Teclado,Periféricos,Mariana,Sudeste,5,164.82,0.05,782.8949999999999
+140,2026-02-25,Mouse,Periféricos,Beatriz,Sudeste,3,81.35,0.15,207.44249999999997
+141,2026-02-27,Notebook,Informática,Carlos,Centro-Oeste,3,3494.1,0.1,9434.07
+142,2026-03-10,Webcam,Periféricos,Rafael,Sul,2,227.01,0.05,431.31899999999996
+143,2026-01-09,,Áudio,Joao,Sudeste,7,272.25,0.1,1715.175
+144,2026-01-25,Headset,Áudio,Joao,Sul,5,291.82,0.0,1459.1
+145,2026-02-26,Notebook,Informática,Carlos,Sudeste,3,3374.52,0.15,8605.026
+146,2026-04-04,Webcam,Periféricos,Mariana,Centro-Oeste,5,211.08,0.1,949.8600000000001
+147,2026-05-01,SSD 1TB,Armazenamento,Ana,Sul,3,540.9,0.05,1541.5649999999998
+148,2026-01-21,Webcam,Periféricos,Joao,Centro-Oeste,6,217.04,0.0,1302.24
+149,2026-05-15,Cadeira Gamer,Móveis,Ana,Sul,5,1149.79,0.05,5461.5025
+150,2026-05-16,SSD 1TB,Armazenamento,Beatriz,Sudeste,5,531.55,0.0,2657.75
+151,2026-06-12,SSD 1TB,Armazenamento,Mariana,Centro-Oeste,8,512.97,0.1,3693.3840000000005
+152,2026-03-29,Headset,Áudio,Joao,Sudeste,8,296.8,0.0,2374.4
+153,2026-04-03,Webcam,Periféricos,Joao,Sudeste,4,224.06,0.15,761.804
+154,2026-02-02,Webcam,Periféricos,Beatriz,Nordeste,3,208.06,0.0,624.1800000000001
+155,2026-04-19,Mouse,Periféricos,Rafael,Sudeste,2,81.71,0.05,155.24899999999997
+156,2026-06-04,Mouse,Periféricos,Mariana,Sul,4,87.41,0.15,297.19399999999996
+157,2026-04-09,SSD 1TB,Armazenamento,Joao,Sul,1,527.55,0.0,527.55
+158,2026-04-05,Notebook,Informática,Mariana,Centro-Oeste,4,3587.97,0.0,14351.88
+159,2026-03-01,Webcam,Periféricos,Joao,Sul,4,216.06,0.15,734.604
+160,2026-05-11,Monitor,Informática,Mariana,Centro-Oeste,8,1253.34,0.15,8522.712
+161,2026-01-12,Notebook,Informática,Joao,Centro-Oeste,1,3456.23,0.0,3456.23
+162,2026-05-10,Cadeira Gamer,Móveis,Carlos,Nordeste,6,1109.5,0.05,6324.15
+163,2026-01-20,Teclado,Periféricos,Joao,Sul,6,156.01,0.0,936.06
+164,2026-01-12,Mouse,Periféricos,Beatriz,Nordeste,7,86.1,0.15,512.295
+165,2026-05-25,Headset,Áudio,Mariana,Nordeste,1,274.78,0.1,247.302
+166,2026-02-22,Teclado,Periféricos,Mariana,Sul,5,163.49,0.05,776.5775
+167,2026-03-04,Headset,Áudio,Carlos,Centro-Oeste,4,275.61,0.15,937.0740000000001
+168,2026-06-29,Webcam,Periféricos,Carlos,Nordeste,7,232.82,0.1,1466.766
+169,2026-04-11,Headset,Áudio,Mariana,Nordeste,7,291.93,0.15,1736.9835
+170,2026-05-18,Headset,Áudio,Beatriz,Nordeste,2,294.92,0.0,589.84
+171,2026-01-22,Webcam,Periféricos,Beatriz,Nordeste,1,232.95,0.0,232.95
+172,2026-05-01,SSD 1TB,Armazenamento,Rafael,Nordeste,7,548.41,0.05,3646.9264999999996
+173,2026-03-14,Teclado,Periféricos,Carlos,Sul,8,168.83,0.0,1350.64
+174,2026-05-16,Webcam,Periféricos,Mariana,Nordeste,8,219.41,0.0,1755.28
+175,2026-03-03,Notebook,Informática,Ana,Sul,8,3680.39,0.1,26498.808
+176,2026-03-26,Teclado,Periféricos,Mariana,Centro-Oeste,2,156.13,0.15,265.421
+177,2026-01-14,Teclado,Periféricos,Mariana,Centro-Oeste,6,158.78,0.05,905.046
+178,2026-05-19,Monitor,Informática,Ana,Nordeste,4,1278.97,0.05,4860.086
+179,2026-05-04,Mouse,Periféricos,Mariana,Sudeste,6,82.67,0.1,446.418
+180,2026-02-27,Notebook,Informática,Ana,Sul,1,3541.9,0.15,3010.615
+181,2026-01-29,Mouse,Periféricos,Rafael,Centro-Oeste,4,83.56,0.0,334.24
+182,2026-06-10,Notebook,Informática,Rafael,Sudeste,2,3344.14,0.05,6353.865999999999
+183,2026-01-15,Headset,Áudio,Mariana,Centro-Oeste,3,289.09,0.0,867.27
+184,2026-01-20,Teclado,Periféricos,Ana,Sul,3,158.76,0.15,404.83799999999997
+185,2026-02-28,Monitor,Informática,Mariana,Sul,5,1284.5,0.0,6422.5
+186,2026-02-23,SSD 1TB,Armazenamento,Carlos,Sudeste,2,500.99,0.05,951.881
+187,2026-06-09,Headset,Áudio,Carlos,Nordeste,3,277.81,0.0,833.4300000000001
+188,2026-03-28,Webcam,Periféricos,Rafael,Nordeste,3,224.69,0.0,674.0699999999999
+189,2026-06-14,SSD 1TB,Armazenamento,Ana,Nordeste,3,,0.0,
+190,2026-06-09,Cadeira Gamer,Móveis,Carlos,Sudeste,3,1089.46,0.0,3268.38
+191,2026-01-12,Mouse,Periféricos,Ana,Nordeste,4,85.23,0.0,340.92
+192,2026-01-31,Mouse,Periféricos,Joao,Sul,2,82.49,0.15,140.23299999999998
+193,2026-02-13,Mouse,Periféricos,Ana,Sul,3,80.17,0.0,240.51
+194,2026-04-07,SSD 1TB,Armazenamento,Rafael,Sudeste,1,528.03,0.0,528.03
+195,2026-01-31,Monitor,Informática,Rafael,Sul,8,1232.21,0.0,9857.68
+196,2026-06-17,Webcam,Periféricos,Rafael,Sudeste,8,230.35,0.1,1658.52
+197,2026-03-14,Webcam,Periféricos,Joao,Nordeste,7,222.41,0.05,1479.0264999999997
+198,2026-05-24,Teclado,Periféricos,Joao,Sudeste,1,167.38,0.0,167.38
+199,2026-01-13,Monitor,Informática,Rafael,Sul,3,1292.65,0.05,3684.0525000000002
+200,2026-03-02,Cadeira Gamer,Móveis,Mariana,Sudeste,4,1184.12,0.0,4736.48
+201,2026-06-13,Mouse,Periféricos,Beatriz,Sul,8,80.83,0.15,549.644
+202,2026-01-04,Mouse,Periféricos,Mariana,Centro-Oeste,1,85.71,0.0,85.71
+203,2026-04-03,Notebook,Informática,Carlos,Sul,2,3681.42,0.1,6626.5560000000005
+204,2026-02-28,Monitor,Informática,Ana,Sul,5,1204.45,0.05,5721.1375
+205,2026-04-14,SSD 1TB,Armazenamento,Ana,Nordeste,5,515.2,0.15,2189.6
+206,2026-05-25,Mouse,Periféricos,Ana,Sul,2,87.51,0.0,175.02
+207,2026-03-29,Monitor,Informática,Mariana,Nordeste,6,1284.4,0.05,7321.08
+208,2026-05-20,Teclado,Periféricos,Joao,Nordeste,7,164.99,0.0,1154.93
+209,2026-03-22,SSD 1TB,Armazenamento,Ana,Sudeste,2,514.46,0.15,874.582
+210,2026-03-08,Mouse,Periféricos,Ana,Nordeste,4,83.59,0.0,334.36
+211,2026-04-28,SSD 1TB,Armazenamento,Mariana,Nordeste,1,499.21,0.15,424.32849999999996
+212,2026-05-04,Monitor,Informática,Rafael,Centro-Oeste,,1287.73,0.15,
+213,2026-02-08,Webcam,Periféricos,Rafael,Sudeste,1,223.6,0.0,223.6
+214,2026-01-20,Mouse,Periféricos,Beatriz,Sul,3,88.28,0.0,264.84000000000003
+215,2026-06-18,Cadeira Gamer,Móveis,Carlos,Centro-Oeste,7,1179.19,0.1,7428.897
+216,2026-03-01,Cadeira Gamer,Móveis,Joao,Sudeste,5,1112.09,0.1,5004.405
+217,2026-01-25,Teclado,Periféricos,Joao,Centro-Oeste,1,160.81,0.0,160.81
+218,2026-04-24,Monitor,Informática,Rafael,Centro-Oeste,5,1273.3,0.1,5729.85
+219,2026-04-28,Mouse,Periféricos,Carlos,Nordeste,2,90.05,0.1,162.09
+220,2026-02-06,Monitor,Informática,Mariana,Nordeste,3,1215.63,0.15,3099.8565000000003
+221,2026-04-25,Cadeira Gamer,Móveis,Beatriz,Sudeste,5,1113.6,0.0,5568.0
+222,2026-05-12,Notebook,Informática,Beatriz,Sul,1,3592.45,0.15,3053.5825
+223,2026-01-10,SSD 1TB,Armazenamento,Beatriz,Sudeste,1,536.13,0.0,536.13
+224,2026-01-19,Headset,Áudio,Mariana,Nordeste,7,282.7,0.05,1879.9549999999997
+225,2026-05-21,Mouse,Periféricos,Mariana,Sudeste,2,84.89,0.15,144.313
+226,2026-04-14,Headset,Áudio,Joao,Sudeste,2,295.22,0.0,590.44
+227,2026-06-27,SSD 1TB,Armazenamento,Joao,Sudeste,7,504.77,0.05,3356.7205
+228,2026-04-21,Webcam,Periféricos,Mariana,Nordeste,8,211.71,0.15,1439.628
+229,2026-01-22,Headset,Áudio,Carlos,Centro-Oeste,4,272.5,0.1,981.0
+230,2026-01-24,Webcam,Periféricos,Carlos,Centro-Oeste,4,218.32,0.0,873.28
+231,2026-04-18,Mouse,Periféricos,Rafael,Nordeste,5,83.3,0.1,374.85
+232,2026-06-30,Mouse,Periféricos,Joao,Sudeste,4,83.41,0.05,316.95799999999997
+233,2026-04-01,Webcam,Periféricos,Rafael,Sul,8,212.68,0.0,1701.44
+234,2026-03-24,Teclado,Periféricos,Carlos,Sul,3,157.88,0.1,426.276
+235,2026-02-28,Notebook,Informática,Mariana,Nordeste,6,3615.61,0.0,21693.66
+236,2026-05-06,Mouse,Periféricos,Ana,Sudeste,2,84.87,0.1,152.76600000000002
+237,2026-03-27,Mouse,Periféricos,Ana,Sudeste,7,82.04,0.0,574.2800000000001
+238,2026-05-07,Mouse,Periféricos,Ana,Nordeste,8,81.87,0.1,589.464
+239,2026-06-04,SSD 1TB,Armazenamento,Carlos,Sul,6,521.7,0.1,2817.1800000000003
+240,2026-01-12,SSD 1TB,Armazenamento,Beatriz,Sudeste,1,546.22,0.1,491.598
+241,2026-04-21,Notebook,Informática,Mariana,Centro-Oeste,2,3480.7,0.1,6265.26
+242,2026-04-11,Cadeira Gamer,Móveis,Ana,Sul,3,1193.58,0.05,3401.7029999999995
+243,2026-04-17,Cadeira Gamer,Móveis,Rafael,Sul,6,1112.62,0.0,6675.719999999999
+244,2026-04-29,Webcam,Periféricos,Ana,Sudeste,3,216.4,0.1,584.2800000000001
+245,2026-02-13,Cadeira Gamer,Móveis,Ana,Sul,3,1187.11,0.0,3561.33
+246,2026-02-12,Headset,Áudio,Rafael,Centro-Oeste,4,282.75,0.1,1017.9
+247,2026-02-24,SSD 1TB,Armazenamento,Carlos,Sul,8,506.98,0.05,3853.048
+248,2026-02-07,Teclado,Periféricos,Joao,Sudeste,4,154.36,0.0,617.44
+249,2026-03-13,Notebook,Informática,Rafael,Sul,5,3409.16,0.05,16193.509999999998
+250,2026-01-27,Cadeira Gamer,Móveis,Joao,Centro-Oeste,6,1115.89,0.0,6695.34
+251,2026-02-03,Teclado,Periféricos,Carlos,Sul,5,160.91,0.05,764.3224999999999
+252,2026-04-09,Monitor,Informática,Mariana,Centro-Oeste,1,1319.41,0.0,1319.41
+253,2026-06-07,Headset,Áudio,Joao,Sudeste,8,291.42,0.1,2098.224
+254,2026-02-11,Teclado,Periféricos,Rafael,Centro-Oeste,2,161.59,0.1,290.862
+255,2026-02-27,Monitor,Informática,Ana,Sudeste,5,1183.46,0.1,5325.570000000001
+256,2026-05-27,SSD 1TB,Armazenamento,Mariana,Centro-Oeste,3,511.56,0.0,1534.68
+257,2026-05-04,Cadeira Gamer,Móveis,Beatriz,Nordeste,5,1115.36,0.0,5576.799999999999
+258,2026-06-30,Notebook,Informática,Mariana,Sudeste,5,3585.74,0.0,17928.699999999997
+259,2026-03-24,Webcam,Periféricos,Mariana,Centro-Oeste,2,226.54,0.05,430.426
+260,2026-03-08,Notebook,Informática,Beatriz,Centro-Oeste,6,3555.63,0.0,21333.78
+261,2026-01-05,Notebook,Informática,Beatriz,Centro-Oeste,1,3355.55,0.0,3355.55
+262,2026-01-02,Notebook,Informática,Mariana,Nordeste,6,3520.52,0.0,21123.12
+263,2026-02-02,Monitor,Informática,Mariana,Centro-Oeste,2,1244.93,0.0,2489.86
+264,2026-03-18,Headset,Áudio,Beatriz,Sudeste,3,266.89,0.0,800.67
+265,2026-06-10,Teclado,Periféricos,Joao,Sul,1,153.51,0.0,153.51
+266,2026-03-16,Mouse,Periféricos,Joao,Nordeste,7,80.64,0.15,479.808
+267,2026-02-03,Headset,Áudio,Carlos,Nordeste,8,267.89,0.15,1821.6519999999998
+268,2026-03-09,Cadeira Gamer,Móveis,Rafael,Nordeste,3,1085.04,0.0,3255.12
+269,2026-02-07,Mouse,Periféricos,Mariana,Sul,4,85.44,0.0,341.76
+270,2026-05-03,Webcam,Periféricos,Mariana,Centro-Oeste,6,220.59,0.0,1323.54
+271,2026-01-11,Mouse,Periféricos,Beatriz,Centro-Oeste,8,86.71,0.05,658.9959999999999
+272,2026-04-21,Cadeira Gamer,Móveis,Carlos,Sul,4,1135.08,0.1,4086.288
+273,2026-05-25,Mouse,Periféricos,Carlos,Sudeste,5,84.21,0.15,357.8924999999999
+274,2026-01-12,Mouse,Periféricos,Rafael,Nordeste,4,81.1,0.0,324.4
+275,2026-05-24,Headset,Áudio,Mariana,Nordeste,4,,0.0,
+276,2026-04-30,Teclado,Periféricos,Rafael,Nordeste,5,160.09,0.0,800.45
+277,2026-01-11,Cadeira Gamer,Móveis,Joao,Centro-Oeste,6,1125.64,0.15,5740.764
+278,2026-05-26,Teclado,Periféricos,Beatriz,Sudeste,6,156.77,0.05,893.589
+279,2026-01-18,Notebook,Informática,Ana,Sul,3,3679.06,0.05,10485.321
+280,2026-05-22,Notebook,Informática,Rafael,Centro-Oeste,7,3643.85,0.0,25506.95
+281,2026-03-07,Webcam,Periféricos,Joao,Sul,8,212.7,0.0,1701.6
+282,2026-05-30,Webcam,Periféricos,Ana,Sul,2,225.83,0.15,383.911
+283,2026-01-18,Headset,Áudio,Rafael,Sul,8,293.19,0.0,2345.52
+284,2026-02-28,Webcam,Periféricos,Mariana,Centro-Oeste,4,211.18,0.0,844.72
+285,2026-04-09,Webcam,Periféricos,Beatriz,Nordeste,3,217.05,0.0,651.1500000000001
+286,2026-01-18,Notebook,Informática,Beatriz,Sul,4,3426.63,0.1,12335.868
+287,2026-04-19,Notebook,Informática,Ana,Sul,7,3321.03,0.0,23247.210000000003
+288,2026-03-24,Headset,Áudio,Mariana,Centro-Oeste,7,292.23,0.1,1841.0490000000002
+289,2026-03-19,Headset,Áudio,Rafael,Sul,3,272.31,0.1,735.2370000000001
+290,2026-02-23,Webcam,Periféricos,Carlos,Sul,8,214.81,0.0,1718.48
+291,2026-06-02,Headset,Áudio,Carlos,Sul,7,269.49,0.05,1792.1085
+292,2026-05-01,Teclado,Periféricos,Ana,Centro-Oeste,7,153.69,0.0,1075.83
+293,2026-06-27,Cadeira Gamer,Móveis,Ana,Centro-Oeste,2,1199.65,0.0,2399.3
+294,2026-05-14,Headset,Áudio,Joao,Sul,5,295.71,0.05,1404.6225
+295,2026-01-03,Teclado,Periféricos,Ana,Nordeste,1,151.85,0.0,151.85
+296,2026-03-29,Mouse,Periféricos,Carlos,Nordeste,1,80.09,0.0,80.09
+297,2026-05-24,Mouse,Periféricos,Mariana,Centro-Oeste,8,84.64,0.15,575.552
+298,2026-06-09,Notebook,Informática,Mariana,Nordeste,4,3298.85,0.1,11875.86
+299,2026-05-06,Notebook,Informática,Beatriz,Sul,4,3392.08,0.05,12889.903999999999
+300,2026-06-05,SSD 1TB,Armazenamento,Carlos,Centro-Oeste,7,537.92,0.0,3765.4399999999996
+301,2026-03-31,Cadeira Gamer,Móveis,Rafael,Centro-Oeste,4,1103.94,0.0,4415.76
+302,2026-04-29,Teclado,Periféricos,Joao,Centro-Oeste,1,155.86,0.0,155.86
+303,2026-05-09,Teclado,Periféricos,Mariana,Centro-Oeste,5,155.08,0.1,697.8600000000001
+304,2026-05-05,SSD 1TB,Armazenamento,Beatriz,Sul,1,509.28,0.05,483.816
+305,2026-04-15,Cadeira Gamer,Móveis,Ana,Sudeste,4,1122.15,0.15,3815.3100000000004
+306,2026-06-27,Mouse,Periféricos,Carlos,Sudeste,7,86.25,0.05,573.5625
+307,2026-06-19,Headset,Áudio,Rafael,Nordeste,8,292.01,0.05,2219.276
+308,2026-06-09,SSD 1TB,Informática,Ana,Sudeste,2,497.2,0.0,994.4
+309,2026-03-09,Webcam,Periféricos,Mariana,Sudeste,5,206.9,0.0,1034.5
+310,2026-03-17,Monitor,Informática,Ana,Nordeste,4,1224.18,0.05,4651.884
+311,2026-04-06,Webcam,Periféricos,Mariana,Sudeste,4,224.57,0.15,763.538
+312,2026-03-17,Notebook,Informática,Joao,Centro-Oeste,1,3676.8,0.0,3676.8
+313,2026-01-13,Webcam,Periféricos,Mariana,Centro-Oeste,5,220.29,0.15,936.2325
+314,2026-06-24,Notebook,Informática,Carlos,Sudeste,1,3367.34,0.0,3367.34
+315,2026-03-11,SSD 1TB,Armazenamento,Carlos,Sul,3,500.41,0.15,1276.0455
+316,2026-01-30,Webcam,Periféricos,Ana,Sul,1,223.94,0.05,212.743
+317,2026-03-30,Webcam,Periféricos,Mariana,Nordeste,7,218.62,0.0,1530.3400000000001
+318,2026-03-21,Monitor,Informática,Carlos,Sul,8,1254.71,0.0,10037.68
+319,2026-02-12,SSD 1TB,Armazenamento,Carlos,Sul,7,507.86,0.1,3199.518
+320,2026-06-30,SSD 1TB,Armazenamento,Mariana,Sudeste,6,524.52,0.15,2675.0519999999997
+321,2026-04-10,Cadeira Gamer,Móveis,Beatriz,Sudeste,2,1197.31,0.0,2394.62
+322,2026-04-08,Teclado,Periféricos,Mariana,Centro-Oeste,4,157.36,0.1,566.4960000000001
+323,2026-05-30,Mouse,Periféricos,Ana,Nordeste,1,83.41,0.0,83.41
+324,2026-05-03,Mouse,Periféricos,Ana,Centro-Oeste,3,85.05,0.15,216.87749999999997
+325,2026-03-15,Cadeira Gamer,Móveis,Rafael,Nordeste,3,1132.65,0.0,3397.9500000000003
+326,2026-06-28,Mouse,Periféricos,Carlos,Sudeste,6,86.85,0.05,495.0449999999999
+327,2026-02-17,SSD 1TB,Armazenamento,Mariana,Nordeste,4,517.16,0.1,1861.7759999999998
+328,2026-01-21,Headset,Áudio,Beatriz,Sudeste,8,283.34,0.0,2266.72
+329,2026-06-01,Teclado,Periféricos,Joao,Sudeste,2,158.81,0.0,317.62
+330,2026-03-24,Notebook,Informática,Beatriz,Centro-Oeste,4,3553.63,0.0,14214.52
+331,2026-04-13,Webcam,Periféricos,Ana,Sul,2,207.13,0.05,393.54699999999997
+332,2026-04-29,Webcam,Periféricos,Beatriz,Sudeste,8,208.68,0.0,1669.44
+333,2026-03-27,Headset,Áudio,Carlos,Sul,6,281.45,0.15,1435.3949999999998
+334,2026-02-24,Webcam,Periféricos,Ana,Sudeste,7,223.33,,
+335,2026-05-20,Cadeira Gamer,Móveis,Carlos,Sul,7,1123.43,0.15,6684.4085000000005
+336,2026-02-25,Cadeira Gamer,Móveis,Rafael,Sul,5,1111.68,0.0,5558.400000000001
+337,2026-01-28,Headset,Áudio,Carlos,Nordeste,7,266.59,0.05,1772.8234999999997
+338,2026-01-20,Cadeira Gamer,Móveis,Mariana,Nordeste,5,1189.94,0.05,5652.215
+339,2026-04-04,Mouse,Periféricos,Beatriz,Sul,8,85.99,0.0,687.92
+340,2026-04-10,Webcam,Periféricos,Mariana,Sul,5,226.56,0.05,1076.1599999999999
+341,2026-01-02,Headset,Áudio,Mariana,Sudeste,2,278.55,0.0,557.1
+342,2026-03-27,Mouse,Periféricos,Carlos,Sudeste,1,85.37,0.15,72.5645
+343,2026-06-20,Notebook,Informática,Beatriz,Centro-Oeste,3,3297.82,0.15,8409.441
+344,2026-01-29,Mouse,Periféricos,Rafael,Sudeste,4,82.34,0.0,329.36
+345,2026-03-17,Mouse,Periféricos,Mariana,Sul,8,80.14,0.0,641.12
+346,2026-03-06,Notebook,Informática,Rafael,Nordeste,5,3368.23,0.0,16841.15
+347,2026-06-13,Notebook,Informática,Mariana,Sudeste,4,3523.48,0.0,14093.92
+348,2026-04-23,Monitor,Informática,Carlos,Sul,3,1245.86,0.0,3737.58
+349,2026-02-26,Teclado,Periféricos,Mariana,Nordeste,6,168.11,0.0,1008.6600000000001
+350,2026-05-29,Teclado,Periféricos,Beatriz,Centro-Oeste,1,165.7,0.15,140.845
+351,2026-01-05,SSD 1TB,Armazenamento,Rafael,Sul,5,495.41,0.1,2229.3450000000003
+352,2026-05-19,Cadeira Gamer,Móveis,Mariana,Centro-Oeste,8,1134.39,0.0,9075.12
+353,2026-03-15,Notebook,Informática,Rafael,Sul,8,3443.11,0.0,27544.88
+354,2026-01-18,Monitor,Informática,Carlos,Nordeste,4,1209.42,0.0,4837.68
+355,2026-05-20,Monitor,Informática,Beatriz,Sudeste,5,1289.48,0.15,5480.29
+356,2026-05-20,Notebook,Informática,Carlos,Sudeste,1,3592.37,0.0,3592.37
+357,2026-04-11,Monitor,Informática,Joao,Nordeste,1,1311.28,0.0,1311.28
+358,2026-01-07,Webcam,Periféricos,Carlos,Nordeste,4,217.48,0.0,869.92
+359,2026-04-09,Monitor,Informática,Ana,Centro-Oeste,7,1285.42,0.15,7648.249
+360,2026-06-19,Monitor,Informática,Rafael,Sudeste,6,1322.57,0.0,7935.42
+361,2026-06-03,Teclado,Periféricos,Beatriz,Sul,3,163.42,0.0,490.26
+362,2026-03-13,Cadeira Gamer,Móveis,Rafael,Sul,7,1128.66,0.1,7110.558000000001
+363,2026-06-11,Cadeira Gamer,Móveis,Ana,Centro-Oeste,2,1122.63,0.1,2020.7340000000002
+364,2026-06-11,Notebook,Informática,Joao,Sudeste,6,3365.66,0.0,20193.96
+365,2026-01-25,Mouse,Periféricos,Ana,Nordeste,7,80.21,0.05,533.3965
+366,2026-06-27,Cadeira Gamer,Móveis,Beatriz,Sul,7,1105.24,0.0,7736.68
+367,2026-06-07,Cadeira Gamer,Móveis,Rafael,Sul,5,1181.25,0.1,5315.625
+368,2026-05-01,Teclado,Periféricos,Beatriz,Sul,3,164.38,0.0,493.14
+369,2026-01-06,Notebook,Informática,Joao,Sul,7,3661.64,0.1,23068.332
+370,2026-01-10,Headset,Áudio,Mariana,Sudeste,5,277.65,0.0,1388.25
+371,2026-04-20,Monitor,Informática,Beatriz,Centro-Oeste,4,1306.51,0.05,4964.737999999999
+372,2026-05-09,Monitor,Informática,Mariana,Sul,1,1189.3,0.05,1129.8349999999998
+373,2026-01-01,Teclado,Periféricos,Ana,Nordeste,1,167.76,0.0,167.76
+374,2026-06-10,Mouse,Periféricos,Carlos,Sudeste,3,89.4,0.0,268.20000000000005
+375,2026-04-06,Notebook,Informática,Ana,Sul,1,3359.46,0.0,3359.46
+376,2026-03-10,Mouse,Periféricos,Mariana,Nordeste,6,86.74,0.0,520.4399999999999
+377,2026-03-20,Mouse,Periféricos,Ana,Centro-Oeste,5,89.41,0.15,379.99249999999995
+378,2026-06-20,SSD 1TB,Armazenamento,Ana,Centro-Oeste,3,529.08,0.15,1349.1540000000002
+379,2026-01-29,Teclado,Periféricos,Joao,Nordeste,7,158.33,0.0,1108.3100000000002
+380,2026-06-22,Mouse,Periféricos,Rafael,Centro-Oeste,5,86.11,0.15,365.9675
+381,2026-06-16,Headset,Áudio,Beatriz,Sudeste,8,269.47,0.0,2155.76
+382,2026-04-11,SSD 1TB,Armazenamento,Beatriz,Sudeste,8,544.66,0.0,4357.28
+383,2026-04-08,Monitor,Informática,Carlos,Centro-Oeste,5,1239.93,0.0,6199.650000000001
+384,2026-01-23,Notebook,Informática,Rafael,Sudeste,3,3345.11,0.0,10035.33
+385,2026-04-05,SSD 1TB,Armazenamento,Joao,Centro-Oeste,5,543.55,0.0,2717.75
+386,2026-03-24,Notebook,Informática,Rafael,Nordeste,2,3708.7,0.0,7417.4
+387,2026-03-21,Mouse,Periféricos,Ana,Nordeste,5,89.59,0.05,425.5525
+388,2026-02-20,Cadeira Gamer,Móveis,Joao,Centro-Oeste,4,1209.73,0.15,4113.082
+389,2026-01-31,Headset,Áudio,Mariana,Sul,5,291.08,0.0,1455.3999999999999
+390,2026-04-01,Teclado,Periféricos,Rafael,Sudeste,8,155.01,0.0,1240.08
+391,2026-03-28,SSD 1TB,Armazenamento,Ana,Sudeste,3,550.18,0.0,1650.54
+392,2026-05-28,Monitor,Informática,Mariana,Nordeste,6,1247.55,0.05,7111.034999999999
+393,2026-03-30,Notebook,Informática,Rafael,Centro-Oeste,5,3433.58,0.15,14592.715
+394,2026-03-12,Mouse,Periféricos,Ana,Nordeste,7,82.0,0.0,574.0
+395,2026-06-20,Notebook,Informática,Rafael,Centro-Oeste,2,3573.7,0.15,6075.29
+396,2026-04-10,Webcam,Periféricos,Mariana,Centro-Oeste,7,232.16,0.1,1462.608
+397,2026-05-04,SSD 1TB,Armazenamento,Ana,Nordeste,8,545.34,0.15,3708.312
+398,2026-05-08,Headset,Áudio,Ana,Centro-Oeste,8,264.86,0.05,2012.936
+399,2026-03-14,Headset,Áudio,Beatriz,Sudeste,6,273.27,0.0,1639.62
+400,2026-05-14,Webcam,Periféricos,Beatriz,Centro-Oeste,3,219.12,0.15,558.756
+401,2026-04-05,Notebook,Informática,Rafael,Centro-Oeste,6,3377.13,0.1,18236.502
+402,2026-03-03,Notebook,Informática,Beatriz,Sudeste,4,3603.1,0.0,14412.4
+403,2026-01-28,SSD 1TB,Armazenamento,Rafael,Sul,3,500.37,0.0,1501.1100000000001
+404,2026-03-24,SSD 1TB,Armazenamento,Beatriz,Nordeste,8,535.27,0.0,4282.16
+405,2026-06-08,SSD 1TB,Armazenamento,Ana,Sul,5,533.63,0.0,2668.15
+406,2026-01-18,Notebook,Informática,Ana,Sul,8,3456.97,0.0,27655.76
+407,2026-06-06,Headset,Áudio,Rafael,Sudeste,3,279.52,0.0,838.56
+408,2026-06-26,Monitor,Informática,Carlos,Sul,6,1257.07,0.15,6411.057
+409,2026-01-13,Mouse,Periféricos,Joao,Sudeste,3,84.49,0.05,240.79649999999995
+410,2026-04-13,Cadeira Gamer,Móveis,Joao,Nordeste,6,1191.42,0.0,7148.52
+411,2026-03-30,Notebook,Informática,Carlos,Sul,1,3544.25,0.0,3544.25
+412,2026-01-23,Headset,Áudio,Ana,Sul,3,286.58,0.1,773.7660000000001
+413,2026-06-24,Monitor,Informática,Mariana,Sul,7,1317.0,0.1,8297.1
+414,2026-02-05,Mouse,Periféricos,Carlos,Nordeste,1,89.2,0.1,80.28
+415,2026-03-15,Notebook,Informática,Carlos,Sudeste,6,3493.44,0.05,19912.608
+416,2026-01-10,Monitor,Informática,Joao,Nordeste,2,1311.1,0.15,2228.87
+417,2026-05-22,Headset,Áudio,Joao,Centro-Oeste,6,280.8,0.15,1432.0800000000002
+418,2026-01-13,Headset,Áudio,Mariana,Sudeste,2,263.35,0.0,526.7
+419,2026-01-28,Teclado,Periféricos,Joao,Sudeste,7,151.68,0.0,1061.76
+420,2026-04-01,Webcam,Periféricos,Beatriz,Sul,1,217.64,0.0,217.64
+421,2026-02-26,Notebook,Informática,Beatriz,Sudeste,6,3705.2,0.0,22231.199999999997
+422,2026-01-23,Cadeira Gamer,Móveis,Beatriz,Sudeste,7,1204.88,0.0,8434.16
+423,2026-04-10,Monitor,Informática,Mariana,Sul,5,1215.42,0.0,6077.1
+424,2026-04-30,Webcam,Periféricos,Joao,Centro-Oeste,4,213.49,0.1,768.5640000000001
+425,2026-01-23,SSD 1TB,Armazenamento,Beatriz,Nordeste,6,505.4,0.0,3032.3999999999996
+426,2026-02-22,Headset,Áudio,Beatriz,Sul,8,281.38,0.15,1913.384
+427,2026-06-09,SSD 1TB,Armazenamento,Ana,Centro-Oeste,8,537.68,0.1,3871.296
+428,2026-06-23,Notebook,Informática,Ana,Centro-Oeste,2,3443.46,0.0,6886.92
+429,2026-05-01,Headset,Áudio,Carlos,Nordeste,1,293.28,0.0,293.28
+430,2026-01-15,Teclado,Periféricos,Mariana,Sul,1,154.69,0.05,146.9555
+431,2026-01-23,Webcam,Periféricos,Carlos,Sul,8,221.33,0.05,1682.108
+432,2026-01-28,Cadeira Gamer,Móveis,Mariana,Sudeste,1,1134.61,0.0,1134.61
+433,2026-04-14,Monitor,Informática,Mariana,Nordeste,5,1299.5,0.0,6497.5
+434,2026-01-26,Monitor,Informática,Beatriz,Sul,3,1239.05,0.0,3717.1499999999996
+435,2026-01-02,SSD 1TB,Armazenamento,Beatriz,Centro-Oeste,2,493.49,0.05,937.631
+436,2026-04-23,Teclado,Periféricos,Beatriz,Nordeste,2,154.76,0.15,263.092
+437,2026-04-28,Teclado,Periféricos,Ana,Sul,6,159.23,0.1,859.8419999999999
+438,2026-04-30,Mouse,Periféricos,Mariana,Nordeste,1,84.42,0.0,84.42
+439,2026-02-21,Monitor,Informática,Carlos,Centro-Oeste,2,1181.31,0.15,2008.2269999999999
+440,2026-02-19,Monitor,Informática,Carlos,Sul,5,1221.67,0.0,6108.35
+441,2026-04-23,SSD 1TB,Armazenamento,Rafael,Centro-Oeste,2,523.78,0.0,1047.56
+442,2026-05-08,Teclado,Periféricos,Mariana,Nordeste,1,160.81,0.0,160.81
+443,2026-02-06,Mouse,Periféricos,Ana,Centro-Oeste,3,80.89,0.0,242.67000000000002
+444,2026-05-01,Notebook,Informática,Mariana,Sudeste,3,3583.41,0.05,10212.718499999999
+445,2026-01-06,Notebook,Informática,Ana,Sul,4,3538.46,0.0,14153.84
+446,2026-01-08,Webcam,Periféricos,Rafael,Sul,5,220.23,0.05,1046.0924999999997
+447,2026-05-14,Cadeira Gamer,Móveis,Ana,Nordeste,7,1101.69,0.0,7711.83
+448,2026-06-12,Mouse,Periféricos,Joao,Sul,4,81.0,0.1,291.6
+449,2026-01-27,Headset,Áudio,Rafael,Sudeste,5,294.33,0.1,1324.485
+450,2026-01-29,Teclado,Periféricos,Joao,Sul,6,159.1,0.1,859.14
+451,2026-01-24,Mouse,Periféricos,Rafael,Sul,6,85.31,0.0,511.86
+452,2026-03-17,Teclado,Periféricos,Carlos,Centro-Oeste,1,158.78,0.0,158.78
+453,2026-05-17,SSD 1TB,Armazenamento,Carlos,Centro-Oeste,7,491.85,0.0,3442.9500000000003
+454,2026-02-19,Headset,Áudio,Mariana,Sudeste,1,284.77,0.05,270.5315
+455,2026-01-23,Notebook,Informática,Joao,Nordeste,3,3422.13,0.1,9239.751
+456,2026-06-19,Webcam,Periféricos,Joao,Centro-Oeste,6,232.92,0.0,1397.52
+457,2026-02-13,Mouse,Periféricos,Carlos,Sul,7,84.44,0.1,531.972
+458,2026-06-11,Webcam,Periféricos,Carlos,Sudeste,1,209.8,0.0,209.8
+459,2026-01-17,Notebook,Informática,Carlos,Sudeste,1,3414.64,0.1,3073.176
+460,2026-05-31,Teclado,Periféricos,Carlos,Sul,7,159.32,0.1,1003.716
+461,2026-04-26,Teclado,Periféricos,Joao,Centro-Oeste,6,150.62,0.15,768.162
+462,2026-03-11,Mouse,Periféricos,Rafael,Sudeste,6,80.35,0.0,482.09999999999997
+463,2026-01-03,Headset,Áudio,Carlos,Nordeste,8,291.57,0.15,1982.676
+464,2026-06-20,SSD 1TB,Armazenamento,Beatriz,Nordeste,8,502.98,0.0,4023.84
+465,2026-06-03,Teclado,Periféricos,Rafael,Sul,4,154.37,0.1,555.7320000000001
+466,2026-06-21,Monitor,Informática,Joao,Sul,2,1194.68,0.0,2389.36
+467,2026-02-13,SSD 1TB,Armazenamento,Beatriz,Centro-Oeste,1,517.87,0.0,517.87
+468,2026-02-22,Headset,Áudio,Rafael,Sudeste,7,264.77,0.0,1853.3899999999999
+469,2026-01-29,Mouse,Periféricos,Beatriz,Sudeste,4,88.33,0.0,353.32
+470,2026-04-26,Teclado,Periféricos,Carlos,Centro-Oeste,7,161.13,0.0,1127.9099999999999
+471,2026-04-05,Webcam,Periféricos,Joao,Nordeste,1,219.1,0.05,208.14499999999998
+472,2026-03-04,Webcam,Periféricos,Joao,Sul,4,229.44,0.0,917.76
+473,2026-06-28,Teclado,Periféricos,Carlos,Sudeste,5,152.06,0.0,760.3
+474,2026-02-17,Monitor,Informática,Joao,Centro-Oeste,5,1271.16,0.15,5402.43
+475,2026-04-16,Teclado,Periféricos,Beatriz,Sul,4,157.3,0.05,597.74
+476,2026-04-29,Webcam,Periféricos,Joao,Sul,3,230.19,0.0,690.5699999999999
+477,2026-03-03,Teclado,Periféricos,Mariana,Centro-Oeste,2,157.13,0.1,282.834
+478,2026-05-05,Mouse,Periféricos,Ana,Sudeste,8,87.02,0.0,696.16
+479,2026-01-08,Webcam,Periféricos,Rafael,Centro-Oeste,4,226.43,0.0,905.72
+480,2026-04-27,Cadeira Gamer,Móveis,Joao,Sul,5,1147.43,0.0,5737.150000000001
+481,2026-05-23,Webcam,Periféricos,Beatriz,Centro-Oeste,6,213.6,0.1,1153.44
+482,2026-03-23,Cadeira Gamer,Móveis,Rafael,Nordeste,7,1128.48,0.15,6714.456
+483,2026-03-29,Teclado,Periféricos,Beatriz,Centro-Oeste,8,167.19,0.0,1337.52
+484,2026-06-25,Cadeira Gamer,Móveis,Joao,Sul,4,1087.24,0.0,4348.96
+485,2026-03-27,Cadeira Gamer,Móveis,Rafael,Nordeste,4,1141.9,0.0,4567.6
+486,2026-02-21,Headset,Áudio,Mariana,Sudeste,4,265.62,0.0,1062.48
+487,2026-05-21,SSD 1TB,Armazenamento,Beatriz,Nordeste,1,521.12,0.15,442.952
+488,2026-03-26,SSD 1TB,Armazenamento,Joao,Sul,1,542.08,0.0,542.08
+489,2026-05-15,Teclado,Periféricos,Carlos,Centro-Oeste,5,153.71,0.0,768.5500000000001
+490,2026-01-26,Notebook,Informática,Joao,Nordeste,2,3417.6,0.05,6493.44
+491,2026-03-25,Cadeira Gamer,Móveis,Carlos,Sudeste,6,1121.13,0.0,6726.780000000001
+492,2026-04-11,Cadeira Gamer,Móveis,Mariana,Nordeste,6,1201.41,0.0,7208.460000000001
+493,2026-05-29,Notebook,Informática,Carlos,Sul,3,3486.75,0.1,9414.225
+494,2026-03-05,Webcam,Periféricos,Mariana,Sul,2,223.2,0.0,446.4
+495,2026-03-16,SSD 1TB,Armazenamento,Joao,Sul,3,541.19,0.05,1542.3915000000002
+496,2026-02-01,Cadeira Gamer,Móveis,Rafael,Nordeste,1,1127.05,0.0,1127.05
+497,2026-06-24,Cadeira Gamer,Móveis,Joao,Centro-Oeste,8,1159.38,0.1,8347.536000000002
+498,2026-04-04,Cadeira Gamer,Móveis,Ana,Sul,5,1115.12,0.0,5575.599999999999
+499,2026-06-01,Teclado,Periféricos,Rafael,Sul,4,168.08,0.0,672.32
+500,2026-01-23,Cadeira Gamer,Móveis,Mariana,Centro-Oeste,5,1099.62,0.0,5498.099999999999

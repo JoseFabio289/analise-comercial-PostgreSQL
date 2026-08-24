@@ -128,6 +128,9 @@ def exibir_resultados(
     print()
     print("Produto menos vendido:",produto_menos)
     print("Quantidade vendida:",quantidade_menos)
+
+def salvar_dados(df, caminho):
+    df.to_csv(caminho, index=False)
     
 
 def main():
@@ -157,6 +160,8 @@ def main():
     produto_menos,
     quantidade_menos
     )
+
+    salvar_dados(df_limpo, "dados/vendas_tratadas.csv")
 
 if __name__ == "__main__":
     main()
