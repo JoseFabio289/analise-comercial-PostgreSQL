@@ -1,6 +1,42 @@
 import pandas as pd
+import os
+import psycopg
+from dotenv import load_dotenv
+
+load_dotenv()
 
 pd.set_option('display.max_columns', None)
+
+def inserir_dados(conexao, registros):
+    sql = """
+        INSERT INTO vendas(
+            id_venda,
+            data,
+            produto,
+            categoria,
+            vendedor,
+            regiao,
+            quantidade,
+            preco_unitario,
+            desconto
+        )
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
+        ON CONFLICT (id_venda) DO NOTHING;
+    """
+
+    with conexao.cursor() as cursor:
+        cursor.executemany(sql, registros)
+
+    conexao.commit()
+
+def conectar_banco():
+    return psycopg.connect(
+        host=os.getenv("DB_HOST"),
+        port=os.getenv("DB_PORT"),
+        dbname=os.getenv("DB_NAME"),
+        user=os.getenv("DB_USER"),
+        password=os.getenv("DB_PASSWORD"),
+    )
 
 def carregar_dados(caminho):
     return pd.read_csv(caminho)
@@ -138,30 +174,58 @@ def main():
 
     df_limpo = limpar_dados(df)
 
-    #df_limpo.info()
-
-    print(
-        df_limpo[
-            ["quantidade", "preco_unitario", "desconto", "faturamento"]
-        ].head(10)
-    )
-
     indicadores = calcular_indicadores(df_limpo)
     produto, quantidade = calcular_produto_mais_vendido(df_limpo)
     regiao, faturamento = calcular_regiao(df_limpo)
     produto_menos, quantidade_menos = calcular_produto_menos_vendido(df_limpo)
 
     exibir_resultados(
-    indicadores,
-    regiao,
-    faturamento,
-    produto,
-    quantidade,
-    produto_menos,
-    quantidade_menos
+        indicadores,
+        regiao,
+        faturamento,
+        produto,
+        quantidade,
+        produto_menos,
+        quantidade_menos
     )
 
     salvar_dados(df_limpo, "dados/vendas_tratadas.csv")
+
+    colunas_banco = [
+        "id_venda",
+        "data",
+        "produto",
+        "categoria",
+        "vendedor",
+        "regiao",
+        "quantidade",
+        "preco_unitario",
+        "desconto"
+    ]
+
+    df_banco = df_limpo[colunas_banco].copy()
+
+    df_banco["data"] = df_banco["data"].dt.date
+
+    registros = []
+
+    for linha in df_banco.itertuples(index=False, name=None):
+        registro = tuple(
+        None if pd.isna(valor)
+        else valor.item() if hasattr(valor, "item")
+        else valor.to_pydatetime() if hasattr(valor, "to_pydatetime")
+        else valor
+        for valor in linha
+    )
+
+        registros.append(registro)
+
+    conexao = conectar_banco()
+
+    try:
+        inserir_dados(conexao, registros)
+    finally:
+        conexao.close()
 
 if __name__ == "__main__":
     main()
