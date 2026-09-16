@@ -19,6 +19,12 @@ from src.banco import (
     preparar_dados_banco
 )
 
+from src.visualizacao import(
+    grafico_faturamento_regiao,
+    grafico_faturamento_mensal,
+    grafico_quantidade_produto
+)
+
 def main():
     df = carregar_dados("dados/vendas_brutas.csv")
 
@@ -51,6 +57,10 @@ def main():
         inserir_dados(conexao, registros)
     finally:
         conexao.close()
+
+    grafico_faturamento_regiao(df_limpo)
+    grafico_faturamento_mensal(df_limpo)
+    grafico_quantidade_produto(df_limpo)
 
 if __name__ == "__main__":
     main()
