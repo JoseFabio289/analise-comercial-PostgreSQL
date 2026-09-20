@@ -244,3 +244,9 @@ Durante o desenvolvimento foram trabalhados conceitos de:
 - controle de versão com Git e GitHub.
 
 O projeto também reforçou a importância de investigar anomalias antes de simplesmente remover ou alterar registros e de separar observações encontradas nos dados de conclusões causais.
+
+## Status do projeto
+
+Projeto concluído.
+
+A versão atual inclui tratamento e análise de dados, integração com PostgreSQL, consultas SQL, testes automatizados e visualizações com Matplotlib.
